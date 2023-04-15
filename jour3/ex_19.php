@@ -21,5 +21,3 @@ function calc($operation, $num1, $num2) {
             return "Invalid operation";
     }
 }
-
-echo calc("+", 5, 10);

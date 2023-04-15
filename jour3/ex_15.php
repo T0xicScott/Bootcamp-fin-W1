@@ -1,7 +1,7 @@
 <?php
 
 function teacher() {
-    echo "I am a Teacher";
+    echo "I am a Teacher\n";
 }
 
 function student($name = "Toto") {

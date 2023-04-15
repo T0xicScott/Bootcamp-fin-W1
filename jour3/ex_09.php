@@ -1,5 +1,5 @@
 <?php
 
 function print_variable($variable) {
-    echo "Hello = $variable";
+    echo "variable = $variable\n";
 }

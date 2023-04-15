@@ -5,3 +5,10 @@ function print_calls() {
     $count++;
     echo "La fonction print_calls a été appelée $count fois\n";
 }
+
+print_calls();
+print_calls();
+print_calls();
+print_calls();
+print_calls();
+print_calls();
