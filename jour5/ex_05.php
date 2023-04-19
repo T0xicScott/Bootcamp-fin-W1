@@ -6,8 +6,9 @@ function my_add_to_session($cle, $valeur) {
     }
 
     $_SESSION[$cle] = $valeur;
-    $_SESSION[$cle] .= "titi";
+    $_SESSION[$cle] .= "titi\n";
 
 }
 
 my_add_to_session("pseudo", "Max_");
+echo $_SESSION["pseudo"];

@@ -10,7 +10,7 @@ function declare_globals() {
     $f = "que";
     $g = "PHP";
     $h = "!\n";
-    echo $a . " " . $b . " " . $c . " " . $d . " " . $e . " " . $f . " " . $g . " " . $h;
+    echo "$a $b $c $d $e $f $g $h";
 }
 
 declare_globals();
